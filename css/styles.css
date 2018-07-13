@@ -220,7 +220,7 @@ figure {
   .site-nav-item-label {
     display: inline-block;
   }
-  main{
+  main {
     margin-left: 70px;
   }
 
@@ -254,15 +254,15 @@ figure {
   .movie-poster {
     display: block;
   }
-  article.movie:first-child .movie-backdrop {
+  .movie:first-child .movie-backdrop {
     display: block;
   }
 
-  article.movie:first-child .movie-poster {
+  .movie:first-child .movie-poster {
     display: none;
   }
 
-  article.movie:first-child .movie-overview {
+  .movie:first-child .movie-overview {
     display: block;
   }
 }
