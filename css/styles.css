@@ -220,7 +220,7 @@ figure {
   .site-nav-item-label {
     display: inline-block;
   }
-  .movie{
+  main{
     margin-left: 70px;
   }
 
@@ -230,5 +230,39 @@ figure {
 
   .about > p {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  article.movie:first-child{
+    grid-column: 1 / 4;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+  article.movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  article.movie:first-child .movie-poster {
+    display: none;
+  }
+
+  article.movie:first-child .movie-overview {
+    display: block;
   }
 }
