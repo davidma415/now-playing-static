@@ -266,3 +266,18 @@ figure {
     display: block;
   }
 }
+
+@media screen and (min-width: 1360px) {
+  body {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+
+  nav {
+    border-right: 1px solid rgba(0,0,0,0.1);
+  }
+
+  footer {
+    width: 100%;
+  }
+}
